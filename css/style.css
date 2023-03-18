@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+body {
+    font-family: "Inter", Helvetica, sans-serif;
+}
+
 .bg-grey {
     background: #f7f7f7;
 }
