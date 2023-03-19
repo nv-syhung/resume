@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 /* MAIN COLOR: #0c4a6e 
     GREY COLOR: #111827*/
@@ -17,15 +17,11 @@ body {
 }
 
 .bg-grey {
-  background: #f7f7f7;
+  background: #f3f4f6;
 }
 
-section > .container {
-  width: 1170px;
-  margin: auto;
-  display: block;
-
-  padding: 30px 50px;
+section {
+  padding: 52px 300px;
 }
 
 /* Banner section */
@@ -59,6 +55,9 @@ section > .container {
 /* nav bar section */
 
 #nav-bar {
+  padding-top: 0;
+  padding-bottom: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +90,68 @@ section > .container {
 }
 
 #nav-bar .icon-center {
-  margin: 0 84px;
+  margin: 0 128px;
   height: 54px;
   width: 54px;
+}
+
+/* about section */
+
+#about {
+padding: 0;
+color: #1f2937;
+
+/* grid settings */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#about h1 {
+  color: #111827;
+  font-size: 28px;
+}
+
+#about span {
+  font-weight: 600;
+}
+
+#goal {
+  padding: 52px 44px 52px 300px;
+  line-height: 1.5;
+
+  /* flex settings */
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#personal-info {
+  padding: 52px 300px 52px 44px;
+  background-color: #f9fafb;
+
+  /* flex settings */
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#personal-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#personal-info li {
+  list-style-type: none;
+}
+
+.contact-links {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.contact-links svg {
+  width: 28px;
+  height: 28px;
 }
