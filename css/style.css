@@ -3,6 +3,8 @@
 /* MAIN COLOR: #0c4a6e 
     GREY COLOR: #111827*/
 
+/* General styles */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -27,8 +29,9 @@ section > .container {
 }
 
 /* Banner section */
+
 #banner {
-    color: #f9fafb;
+  color: #f9fafb;
   height: 600px;
   background-image: linear-gradient(
       rgba(17, 24, 39, 0.6),
@@ -46,12 +49,49 @@ section > .container {
 }
 
 #banner h1 {
-    font-size: 44px;
+  font-size: 44px;
 }
 
 #banner span {
-    color: #e5e7eb;
+  color: #e5e7eb;
 }
+
+/* nav bar section */
+
 #nav-bar {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-bar * {
+  height: 58px;
+  text-transform: uppercase;
+  border-right: 2px solid #d1d5db;
+
+  /* flex settings */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: #111827;
+  padding: 12px;
+}
+
+#nav-bar a:first-child {
+  border-left: 2px solid #d1d5db;
+}
+
+#nav-bar .icon {
+  border: none;
+}
+
+#nav-bar .icon-center {
+  margin: 0 84px;
+  height: 54px;
+  width: 54px;
 }
