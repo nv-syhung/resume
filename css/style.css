@@ -37,7 +37,7 @@ br {
 }
 
 section {
-  padding: 52px 300px;
+  padding: 52px 150px;
 }
 
 /* nav bar section */
@@ -205,7 +205,7 @@ section {
   color: #111827;
 }
 
-.past-acts .highlight {
+.highlight {
   background-color: #0284c7;
   color: #f9fafb;
   border-radius: 32px;
@@ -300,4 +300,70 @@ section {
 
 .cert-container ul {
   padding-left: 24px;
+}
+
+/* projects section */
+
+/* LỜI NHẮN CỦA SINH VIÊN: Em xin phép không sử dụng các đường ngăn cách bên trong những ô dự án, chỉ dùng whitespace, theo quy tắc học trong bài 13 */
+
+#project .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.project-container {
+  border: 1px solid #9ca3af;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-container h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#project img {
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+#project .content-container {
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#project .sub-title {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.sub-title .highlight {
+  padding: 4px 16px;
+}
+
+.sub-title p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#project .description-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* grid-template-rows: repeat(3, 1fr); */
+  gap: 18px;
+  row-gap: 22px;
+}
+
+.description-container ul {
+  margin-left: 18px;
 }
