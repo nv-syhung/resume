@@ -109,6 +109,26 @@ section {
   color: #e5e7eb;
 }
 
+/* profile pic section */
+
+.profile-pic-container {
+  height: 80px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic-container img {
+  border: 5px solid #0c4a6e;
+  border-radius: 1000px;
+  object-fit: cover;
+  scale: 2;
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  width: auto;
+}
+
 /* about section */
 
 #about {
