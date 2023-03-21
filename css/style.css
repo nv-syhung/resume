@@ -42,6 +42,7 @@ section {
 
 /* nav bar section */
 
+/* LỜI NHẮN CỦA SINH VIÊN: Em xin phép để navbar lên đầu trang và không dùng border giữa các links cho hợp với các thiết kế web hiện đại ạ */
 #nav-bar {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -219,6 +220,7 @@ section {
 
 .outer-ul ul {
   list-style-type: "- ";
+  padding-left: 12px;
 
   /* flex settings */
   display: flex;
@@ -263,4 +265,39 @@ section {
 
 .score.no {
   background-color: #d1d5db;
+}
+
+/* certificates section */
+
+#certificate h1 {
+  margin-bottom: 32px;
+}
+
+#certificate h4 {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+#certificate .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 48px;
+}
+
+/* LỜI NHẮN CỦA SINH VIÊN: Em xin phép không thêm border mà chỉ dùng whitespace để đúng với nguyên tắc thiết kế whitespace học trong bài 13 ạ*/
+.cert-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  gap: 18px;
+}
+
+.cert-container img {
+  width: 186px;
+  height: auto;
+}
+
+.cert-container ul {
+  padding-left: 24px;
 }
