@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    #banner span {
+        font-size: 16px;
+    }
+
+    #banner h1 {
+        font-size: 36px;
+    }
+}
