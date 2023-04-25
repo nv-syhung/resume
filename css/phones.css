@@ -38,7 +38,7 @@
 
   .cert-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr auto;
     gap: 8px;
   }
 
@@ -50,14 +50,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-/* 
-  #project .content-container {
-    padding: 0;
-  }
-
-  #project .sub-title {
-    gap: 0;
-  } */
 
   #footer {
     padding: 18px;

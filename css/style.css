@@ -37,7 +37,7 @@ br {
 }
 
 section {
-  padding: 52px 150px;
+  padding: 52px 10%;
 }
 
 /* nav bar section */
@@ -189,9 +189,6 @@ section {
 /* job info section */
 
 #job-info {
-  padding-left: 10%;
-  padding-right: 10%;
-
   /* grid settings */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
