@@ -1,9 +1,14 @@
-@media (max-width: 600px) {
+@media (max-width: 576px) {
     #banner span {
         font-size: 16px;
     }
 
     #banner h1 {
         font-size: 36px;
+    }
+
+    #about {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
