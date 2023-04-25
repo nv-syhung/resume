@@ -115,7 +115,7 @@ section {
 
 .profile-pic-container {
   height: 80px;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,6 +328,10 @@ section {
 
 /* LỜI NHẮN CỦA SINH VIÊN: Em xin phép không sử dụng các đường ngăn cách bên trong những ô dự án, chỉ dùng whitespace, theo quy tắc học trong bài 13 */
 
+#project h1 {
+  margin-bottom: 32px;
+}
+
 #project .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -402,12 +406,14 @@ section {
   gap: 64px;
 }
 
-#footer a:link, #footer a:visited {
+#footer a:link,
+#footer a:visited {
   color: #111827;
   text-decoration: none;
 }
 
-#footer a:hover, #footer a:active {
+#footer a:hover,
+#footer a:active {
   color: #111827;
 }
 

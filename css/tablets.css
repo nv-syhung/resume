@@ -3,6 +3,10 @@
     padding: 52px 18px;
   }
 
+  #goal, #personal-info {
+    padding: 52px 18px;
+}
+
   #job-info {
     padding-left: 15%;
     padding-right: 15%;
@@ -16,6 +20,11 @@
   }
 
   #certificate .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #project .container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
