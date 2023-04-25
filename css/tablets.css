@@ -1,6 +1,5 @@
 @media (max-width: 992px) and (min-width: 576px) {
-  #goal,
-  #personal-info {
+  section {
     padding: 52px 18px;
   }
 
@@ -14,5 +13,10 @@
   #job-info .past-acts,
   #job-info .personal {
     padding: 24px;
+  }
+
+  #certificate .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 }
