@@ -1,4 +1,7 @@
 @media (max-width: 576px) {
+  section {
+    padding: 52px 18px;
+  }
   #banner span {
     font-size: 16px;
   }
@@ -11,11 +14,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  
-  #goal,
-  #personal-info {
-    padding: 52px 18px;
-  }
 
   #job-info {
     padding-left: 12px;
@@ -27,5 +25,16 @@
   #job-info .past-acts,
   #job-info .personal {
     padding: 24px;
+  }
+
+  #certificate .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .cert-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 8px;
   }
 }
