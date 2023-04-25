@@ -2,7 +2,7 @@
   section,
   #goal,
   #personal-info {
-    padding: 52px 18px;
+    padding: 52px 12px;
   }
 
   #banner span {
@@ -38,8 +38,12 @@
 
   .cert-container {
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 1fr auto;
     gap: 8px;
+  }
+
+  .cert-container img {
+    width: 100%;
   }
 
   #project .container {
