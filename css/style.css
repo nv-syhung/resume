@@ -189,8 +189,8 @@ section {
 /* job info section */
 
 #job-info {
-  padding-left: 180px;
-  padding-right: 180px;
+  padding-left: 10%;
+  padding-right: 10%;
 
   /* grid settings */
   display: grid;
