@@ -147,7 +147,7 @@ section {
 }
 
 #goal {
-  padding: 52px 44px 52px 300px;
+  padding: 52px 44px 52px 40%;
 
   /* flex settings */
   display: flex;
@@ -156,7 +156,7 @@ section {
 }
 
 #personal-info {
-  padding: 52px 300px 52px 44px;
+  padding: 52px 0 52px 44px;
   background-color: #f9fafb;
 
   /* flex settings */
