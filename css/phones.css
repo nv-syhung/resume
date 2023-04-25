@@ -1,7 +1,10 @@
 @media (max-width: 576px) {
-  section {
+  section,
+  #goal,
+  #personal-info {
     padding: 52px 18px;
   }
+
   #banner span {
     font-size: 16px;
   }
@@ -11,8 +14,9 @@
   }
 
   #about {
+    padding: 0;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
   }
 
   #job-info {
@@ -41,5 +45,14 @@
   #project .container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+
+  #footer {
+    padding: 18px;
+  }
+
+  #footer ul {
+    gap: 16px;
+    flex-direction: column;
   }
 }
