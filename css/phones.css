@@ -37,4 +37,9 @@
     grid-template-rows: auto 1fr;
     gap: 8px;
   }
+
+  #project .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }

@@ -19,4 +19,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
+
+  #project .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }
