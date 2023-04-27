@@ -1,2 +1,2 @@
 ## Live website
-https://nv-syhung.github.io/resume/
+https://terry-hng.github.io/resume/
